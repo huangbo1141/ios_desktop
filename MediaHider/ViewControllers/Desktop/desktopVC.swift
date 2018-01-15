@@ -9,6 +9,7 @@
 import UIKit
 import MobileCoreServices
 import AssetsLibrary
+import Photos
 
 class desktopVC: UIViewController,UINavigationControllerDelegate,UIImagePickerControllerDelegate {
 
@@ -23,22 +24,41 @@ class desktopVC: UIViewController,UINavigationControllerDelegate,UIImagePickerCo
         // Dispose of any resources that can be recreated.
     }
     
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        self.navigationController?.navigationBar.isHidden = true
+    }
     
-    @IBAction func clickCamera(_ sender: Any) {
+   
+    
+    @IBAction func clickCamera(_ sender: UIView) {
         // show camera
         let ac = UIAlertController.init()
         let ac1 = UIAlertAction.init(title: "Take Picture", style: .default) { (action) in
-            takePhoto(sender: nil)
+            //hgc
+            let globalswift = GlobalSwift.sharedManager
+            GlobalSwift.checkAVCapturePermission(completion: { (ret) in
+                if ret {
+                    self.takePhoto(sender: nil)
+                }
+            })
+            
+            
         }
         let ac2 = UIAlertAction.init(title: "Take Video", style: .default) { (action) in
-            takeVideo(sender: nil)
+            let globalswift = GlobalSwift.sharedManager
+            GlobalSwift.checkAVCapturePermission(completion: { (ret) in
+                if ret {
+                    self.takeVideo(sender: nil)
+                }
+            })
         }
         ac.addAction(ac1)
         ac.addAction(ac2)
         
+        ac.popoverPresentationController?.sourceView = sender
         self.present(ac, animated: true) {
             //
-            
             debugPrint("action")
         }
     }
@@ -66,7 +86,7 @@ class desktopVC: UIViewController,UINavigationControllerDelegate,UIImagePickerCo
             // 2 Present UIImagePickerController to take video
             pickerController = UIImagePickerController()
             pickerController.sourceType = .camera
-            //pickerController.mediaTypes = [kUTTypeMovie as! String]
+            pickerController.mediaTypes = [kUTTypeMovie as! String]
             pickerController.delegate = self
             pickerController.videoMaximumDuration = 10.0
             pickerController.cameraCaptureMode = .video
@@ -90,13 +110,73 @@ class desktopVC: UIViewController,UINavigationControllerDelegate,UIImagePickerCo
                 if stringType == kUTTypeMovie as String {
                     let urlOfVideo = info[UIImagePickerControllerMediaURL] as? URL
                     if let url = urlOfVideo {
+                        do {
+                            let videoData = try Data.init(contentsOf: url)
+                            let videoName = url.lastPathComponent
+                            
+                            photosManager.enumSourceType = .videos
+                            
+                            if let itemName = photosManager.writeItem(fromData: videoData, withName: videoName)
+                            {
+                                if let itemNameData: Data = itemName.data(using: .utf8)
+                                {
+                                    G_loaderShow()
+                                    DispatchQueue.main.async {
+                                        
+                                        let pass = "Video\(arc4random_uniform(999999999))"
+                                        
+                                        let data = RNCryptor.encrypt(data: itemNameData, withPassword: pass)
+                                        
+                                        let obj = ModelMedia()
+                                        
+                                        obj.encryptedNameOfItem = data
+                                        obj.password = pass
+                                        obj.isVideo = true
+                                        
+                                        PR_RealmManager.Add(objectToRealm: obj, update: false, errorMessage: "Inn")
+                                        G_loaderHide()
+                                        
+                                    }
+                                }
+                            }
+                        }catch{
+                            
+                        }
                         
                     }
                 }else if stringType == kUTTypeImage as String {
                     // CheckInAttrViewController
                     if let image = info[UIImagePickerControllerOriginalImage] as? UIImage{
                         // image process
-                        
+                        debugPrint("xxxx")
+                        if let data =  UIImageJPEGRepresentation(image, 0.25)
+                        {
+                            var imgName = "myphoto"
+                            
+                            photosManager.enumSourceType = .photos
+                            
+                            if let itemName = photosManager.writeItem(fromData: data, withName: imgName)
+                            {
+                                if let itemNameData: Data = itemName.data(using: .utf8)
+                                {
+                                    G_loaderShow()
+                                    DispatchQueue.main.async {
+                                        
+                                        let pass = "\(arc4random_uniform(999999999))"
+                                        
+                                        let data = RNCryptor.encrypt(data: itemNameData, withPassword: pass)
+                                        
+                                        let obj = ModelMedia()
+                                        
+                                        obj.encryptedNameOfItem = data
+                                        obj.password = pass
+                                        
+                                        PR_RealmManager.Add(objectToRealm: obj, update: false, errorMessage: "Inn")
+                                        G_loaderHide()
+                                    }
+                                }
+                            }
+                        }
                     }
                 }
                 
@@ -115,8 +195,10 @@ class desktopVC: UIViewController,UINavigationControllerDelegate,UIImagePickerCo
     }
     
     @IBAction func clickPhotos(_ sender: Any) {
+        
         if let vc = G_getVc(ofType: TabBaseViewController(), FromStoryBoard: storyBoards.main , withIdentifier: vcIdentifiers.TabBaseVc)
         {
+            self.navigationController?.navigationBar.isHidden = false
             self.navigationController?.pushViewController(vc, animated: true)
         }
     }

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		107458E4200C4D42004C0BFD /* GlobalSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 107458E3200C4D42004C0BFD /* GlobalSwift.swift */; };
 		10F7ADA4200A47F200D37958 /* desktop.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 10F7ADA3200A47F200D37958 /* desktop.jpg */; };
 		10F7ADA7200A4B7F00D37958 /* ios_camera.png in Resources */ = {isa = PBXBuildFile; fileRef = 10F7ADA5200A4B7F00D37958 /* ios_camera.png */; };
 		10F7ADA8200A4B7F00D37958 /* ios_photos.png in Resources */ = {isa = PBXBuildFile; fileRef = 10F7ADA6200A4B7F00D37958 /* ios_photos.png */; };
@@ -130,6 +131,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		107458E3200C4D42004C0BFD /* GlobalSwift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalSwift.swift; sourceTree = "<group>"; };
 		10F7ADA3200A47F200D37958 /* desktop.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = desktop.jpg; sourceTree = "<group>"; };
 		10F7ADA5200A4B7F00D37958 /* ios_camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ios_camera.png; sourceTree = "<group>"; };
 		10F7ADA6200A4B7F00D37958 /* ios_photos.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ios_photos.png; sourceTree = "<group>"; };
@@ -255,6 +257,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		107458E2200C4D28004C0BFD /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				107458E3200C4D42004C0BFD /* GlobalSwift.swift */,
+			);
+			path = Global;
+			sourceTree = "<group>";
+		};
 		10F7ADA2200A47EA00D37958 /* images */ = {
 			isa = PBXGroup;
 			children = (
@@ -501,6 +511,7 @@
 				CEA9B0551FC7415900B0B5AE /* GlobalData, BaseVC & SubClasses */,
 				CEA9B04B1FC7415900B0B5AE /* StoryBoards */,
 				CEA9B05D1FC7415900B0B5AE /* Uitls & Others */,
+				107458E2200C4D28004C0BFD /* Global */,
 				10F7ADA2200A47EA00D37958 /* images */,
 				CEA9B0501FC7415900B0B5AE /* ViewControllers */,
 			);
@@ -817,7 +828,7 @@
 				TargetAttributes = {
 					CEA9B0091FC740E900B0B5AE = {
 						CreatedOnToolsVersion = 9.1;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					CEA9B01D1FC740E900B0B5AE = {
 						CreatedOnToolsVersion = 9.1;
@@ -940,6 +951,7 @@
 				CE251CE01FC9F77400B80DC9 /* helperGlobalSubclass.swift in Sources */,
 				10F7ADB3200A4E8100D37958 /* desktopVC.swift in Sources */,
 				CE251CE31FC9F77400B80DC9 /* UIImageview.swift in Sources */,
+				107458E4200C4D42004C0BFD /* GlobalSwift.swift in Sources */,
 				CE0F43321FCB303800008098 /* DKPermissionView.swift in Sources */,
 				CE0F43391FCB453000008098 /* photosManager.swift in Sources */,
 				CE0F43231FCB303800008098 /* DKImageManager.swift in Sources */,
@@ -1124,9 +1136,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = W8Y9R333QZ;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Andrew Youssef (2GVTEYU3HY)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Andrew Youssef (2GVTEYU3HY)";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/MediaHider/Frameworks",
@@ -1136,10 +1149,10 @@
 				INFOPLIST_FILE = "$(SRCROOT)/MediaHider/Defaults/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.MediaHider.app;
+				PRODUCT_BUNDLE_IDENTIFIER = com.panda.MediaHider;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE = "f937d95d-5978-42c2-9c54-8484db9285c4";
+				PROVISIONING_PROFILE_SPECIFIER = "panda dev wild";
 				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/MediaHider/Frameworks/Manual/BridgeHeader.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1150,9 +1163,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = W8Y9R333QZ;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Andrew Youssef (2GVTEYU3HY)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Andrew Youssef (2GVTEYU3HY)";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/MediaHider/Frameworks",
@@ -1162,9 +1176,10 @@
 				INFOPLIST_FILE = "$(SRCROOT)/MediaHider/Defaults/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.MediaHider.app;
+				PRODUCT_BUNDLE_IDENTIFIER = com.panda.MediaHider;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE = "f937d95d-5978-42c2-9c54-8484db9285c4";
+				PROVISIONING_PROFILE_SPECIFIER = "panda dev wild";
 				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/MediaHider/Frameworks/Manual/BridgeHeader.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

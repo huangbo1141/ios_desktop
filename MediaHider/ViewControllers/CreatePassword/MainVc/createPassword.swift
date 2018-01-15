@@ -84,7 +84,7 @@ extension createPassword
             return;
         }
         
-        if let vc = G_getVc(ofType: TabBaseViewController(), FromStoryBoard: storyBoards.main , withIdentifier: vcIdentifiers.TabBaseVc)
+        if let vc = G_getVc(ofType: desktopVC(), FromStoryBoard: storyBoards.main , withIdentifier: vcIdentifiers.desktopVC)
         {
             /// Setting password to local.
             PasswordManager.set(PasswordOfUser: self.txtFConfirmPassword.text!)
@@ -94,6 +94,8 @@ extension createPassword
             
             self.navigationController?.pushViewController(vc, animated: true)
         }
+        
+        
     }
 }
 

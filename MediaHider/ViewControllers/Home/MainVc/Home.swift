@@ -398,6 +398,7 @@ extension home
     }
     
     enum conditionType {
+        case selectBack
         case selectAll        
         case selectNone
     }
@@ -436,6 +437,10 @@ extension home
                     arrVideos[i].isSelected = false
                 }
             }
+        }else if condition == .selectBack
+        {
+            self.navigationController?.popViewController(animated: true)
+            return;
         }
         
         self.cln.reloadData()

@@ -49,19 +49,27 @@ class TabBaseViewController: baseVc {
     
     @objc func clickOnMenuIcon(_ sender : UIButton)  {
         
-        DropdownShow(dName: TabBaseViewController.dropdownInstance, toItem: sender, data: ["Select All","Select None"]) { (index, str) in
+        DropdownShow(dName: TabBaseViewController.dropdownInstance, toItem: sender, data: ["Back", "Select All","Select None"]) { (index, str) in
             
             var condtion : home.conditionType = .selectNone
             
             switch index
             {
-            case 0 :
+            case 0:
+                condtion = .selectBack
+            case 1 :
                 condtion = .selectAll
             default:
                 condtion = .selectNone
             }
             
             self.deligateCustom?.clickOnDropDownButton(condition: condtion)
+        }
+    }
+    @objc func clickOnBackIcon(_ sender : UIButton)  {
+        
+        if let vc = self.navigationController {
+            vc.popViewController(animated: true)
         }
     }
     
@@ -96,14 +104,11 @@ class TabBaseViewController: baseVc {
         
         
         // MARK: PANKAJ
-        
-        self.PR_AddLeftNaviButton(img: #imageLiteral(resourceName: "img_menuHome"), selector: #selector(clickOnMenuIcon(_:)) , title: nil, size: CGSize.init(width: 10, height: 10))
+        self.PR_AddLeftNaviButton(img: #imageLiteral(resourceName: "img_menuHome"), selector: #selector(clickOnMenuIcon(_:)) , title: nil, size: CGSize.init(width: 40, height: 40))
         
         self.showAddNavigationButton()
-        
-        
         // TMP HANDLING
-        self.clickOnMenuIcon(UIButton())
+        //self.clickOnMenuIcon(UIButton())
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -114,6 +119,8 @@ class TabBaseViewController: baseVc {
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
+        
+        
         
         self.addTabLayout()
     }

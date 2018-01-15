@@ -295,7 +295,7 @@
         <!--DesktopVC-->
         <scene sceneID="dtG-C8-2k9">
             <objects>
-                <viewController id="TzP-ux-Waa" customClass="desktopVC" customModule="MediaHider" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="desktopVC" id="TzP-ux-Waa" customClass="desktopVC" customModule="MediaHider" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Cq1-0b-Tgb">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

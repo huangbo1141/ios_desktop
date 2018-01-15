@@ -35,6 +35,7 @@ enum vcIdentifiers : String {
     case TabBaseVc = "TabBaseViewController"
     case home = "home"
     case ShowImage = "ShowImage"
+    case desktopVC = "desktopVC"
 }
 
 

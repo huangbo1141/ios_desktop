@@ -99,7 +99,7 @@ extension login : PasswordInputCompleteProtocol {
         if PasswordManager.verifyIsValidPassword(enteredPassword: input)
         {
             // when login success
-            if let vc = G_getVc(ofType: TabBaseViewController(), FromStoryBoard: storyBoards.main , withIdentifier: vcIdentifiers.TabBaseVc)
+            if let vc = G_getVc(ofType: desktopVC(), FromStoryBoard: storyBoards.main , withIdentifier: vcIdentifiers.desktopVC)
             {
                 self.navigationController?.pushViewController(vc, animated: true)
             }

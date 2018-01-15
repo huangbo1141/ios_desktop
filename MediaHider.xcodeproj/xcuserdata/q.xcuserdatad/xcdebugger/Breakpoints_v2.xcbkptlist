@@ -9,40 +9,8 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "MediaHider/ViewControllers/CreatePassword/MainVc/createPassword.swift"
-            timestampString = "537542504.821101"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "33"
-            endingLineNumber = "33"
-            landmarkName = "viewDidLoad()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "MediaHider/ViewControllers/Login/MainVc/Login.swift"
-            timestampString = "537541965.9282351"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "25"
-            endingLineNumber = "25"
-            landmarkName = "viewDidLoad()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
             filePath = "MediaHider/ViewControllers/Home/MainVc/Home.swift"
-            timestampString = "537541978.1041631"
+            timestampString = "537683510.729465"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "255"
@@ -54,43 +22,11 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "MediaHider/ViewControllers/Home/MainVc/Home.swift"
-            timestampString = "537541984.9280241"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "67"
-            endingLineNumber = "67"
-            landmarkName = "viewDidLoad()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "MediaHider/ViewControllers/Home/Extensions/Ext. CollectionView Home.swift"
-            timestampString = "537542066.287738"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "22"
-            endingLineNumber = "22"
-            landmarkName = "collectionView(_:numberOfItemsInSection:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MediaHider/ViewControllers/Home/Extensions/Ext. CollectionView Home.swift"
-            timestampString = "537542067.3273129"
+            timestampString = "537676459.071844"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "37"
@@ -106,23 +42,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MediaHider/ViewControllers/Home/Extensions/Ext. CollectionView Home.swift"
-            timestampString = "537542067.951743"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "36"
-            endingLineNumber = "36"
-            landmarkName = "collectionView(_:cellForItemAt:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "MediaHider/ViewControllers/Home/Extensions/Ext. CollectionView Home.swift"
-            timestampString = "537542071.5196609"
+            timestampString = "537676459.072197"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "79"
@@ -170,7 +90,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MediaHider/ViewControllers/ShowImage/ShowImage.swift"
-            timestampString = "537542234.927763"
+            timestampString = "537683027.863956"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "30"
@@ -186,7 +106,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MediaHider/ViewControllers/ShowImage/ShowImage.swift"
-            timestampString = "537542234.927842"
+            timestampString = "537683027.86402"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "32"
@@ -198,16 +118,80 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MediaHider/ViewControllers/Desktop/desktopVC.swift"
+            timestampString = "537683510.729746"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "50"
+            endingLineNumber = "50"
+            landmarkName = "clickCamera(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (__ObjC.UIAlertAction) -&gt; () in MediaHider.desktopVC.clickCamera(__ObjC.UIView) -&gt; ()"
+                  moduleName = "MediaHider"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/q/Documents/HGC/201801/chris/Desktop/MediaHider/ViewControllers/Desktop/desktopVC.swift"
+                  timestampString = "537679589.866997"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "50"
+                  endingLineNumber = "50"
+                  offsetFromSymbolStart = "52">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Bool) -&gt; () in closure #2 (__ObjC.UIAlertAction) -&gt; () in MediaHider.desktopVC.clickCamera(__ObjC.UIView) -&gt; ()"
+                  moduleName = "MediaHider"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/q/Documents/HGC/201801/chris/Desktop/MediaHider/ViewControllers/Desktop/desktopVC.swift"
+                  timestampString = "537679589.869122"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "51"
+                  endingLineNumber = "51"
+                  offsetFromSymbolStart = "28">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "MediaHider/ViewControllers/Login/MainVc/Login.swift"
-            timestampString = "537542543.0177799"
+            filePath = "MediaHider/ViewControllers/Home/MainVc/Home.swift"
+            timestampString = "537683510.730201"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "72"
-            endingLineNumber = "72"
-            landmarkName = "setupPasswordContainerView()"
+            startingLineNumber = "274"
+            endingLineNumber = "274"
+            landmarkName = "SaveMediaToLocal(count:)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MediaHider/ViewControllers/Home/MainVc/Home.swift"
+            timestampString = "537683510.730268"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "272"
+            endingLineNumber = "272"
+            landmarkName = "clickedOnAddButton()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -217,13 +201,172 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "MediaHider/ViewControllers/Login/MainVc/Login.swift"
-            timestampString = "537542546.914174"
+            filePath = "MediaHider/ViewControllers/Home/MainVc/Home.swift"
+            timestampString = "537683510.730332"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "90"
-            endingLineNumber = "90"
-            landmarkName = "touchAuthenticationComplete(_:success:error:)"
+            startingLineNumber = "259"
+            endingLineNumber = "259"
+            landmarkName = "clickedOnAddButton()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Array&lt;MediaHider.DKAsset&gt;) -&gt; () in MediaHider.home.clickedOnAddButton() -&gt; ()"
+                  moduleName = "MediaHider"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/q/Documents/HGC/201801/chris/Desktop/MediaHider/ViewControllers/Home/MainVc/Home.swift"
+                  timestampString = "537683511.006016"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "259"
+                  endingLineNumber = "259"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in closure #1 (Swift.Array&lt;MediaHider.DKAsset&gt;) -&gt; () in MediaHider.home.clickedOnAddButton() -&gt; ()"
+                  moduleName = "MediaHider"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/q/Documents/HGC/201801/chris/Desktop/MediaHider/ViewControllers/Home/MainVc/Home.swift"
+                  timestampString = "537683511.008182"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "261"
+                  endingLineNumber = "261"
+                  offsetFromSymbolStart = "32">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MediaHider/Frameworks/Manual/DKImage/DKImagePickerController/DKImagePickerController.swift"
+            timestampString = "537681272.8929549"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "498"
+            endingLineNumber = "498"
+            landmarkName = "saveImageDataToAlbumForiOS9(_:_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MediaHider.DKImagePickerController.saveImageDataToAlbumForiOS9(Foundation.Data, (MediaHider.DKAsset) -&gt; ()) -&gt; ()"
+                  moduleName = "MediaHider"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/q/Documents/HGC/201801/chris/Desktop/MediaHider/Frameworks/Manual/DKImage/DKImagePickerController/DKImagePickerController.swift"
+                  timestampString = "537683511.01331"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "498"
+                  endingLineNumber = "498"
+                  offsetFromSymbolStart = "132">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in MediaHider.DKImagePickerController.saveImageDataToAlbumForiOS9(Foundation.Data, (MediaHider.DKAsset) -&gt; ()) -&gt; ()"
+                  moduleName = "MediaHider"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/q/Documents/HGC/201801/chris/Desktop/MediaHider/Frameworks/Manual/DKImage/DKImagePickerController/DKImagePickerController.swift"
+                  timestampString = "537683511.015497"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "496"
+                  endingLineNumber = "496"
+                  offsetFromSymbolStart = "24">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MediaHider/Frameworks/Manual/DKImage/DKImagePickerController/DKImagePickerController.swift"
+            timestampString = "537681272.89331"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "496"
+            endingLineNumber = "496"
+            landmarkName = "saveImageDataToAlbumForiOS9(_:_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in MediaHider.DKImagePickerController.saveImageDataToAlbumForiOS9(Foundation.Data, (MediaHider.DKAsset) -&gt; ()) -&gt; ()"
+                  moduleName = "MediaHider"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/q/Documents/HGC/201801/chris/Desktop/MediaHider/Frameworks/Manual/DKImage/DKImagePickerController/DKImagePickerController.swift"
+                  timestampString = "537683511.020514"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "496"
+                  endingLineNumber = "496"
+                  offsetFromSymbolStart = "24">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Swift.Bool, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in MediaHider.DKImagePickerController.saveImageDataToAlbumForiOS9(Foundation.Data, (MediaHider.DKAsset) -&gt; ()) -&gt; ()"
+                  moduleName = "MediaHider"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/q/Documents/HGC/201801/chris/Desktop/MediaHider/Frameworks/Manual/DKImage/DKImagePickerController/DKImagePickerController.swift"
+                  timestampString = "537683511.022694"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "496"
+                  endingLineNumber = "496"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in closure #2 (Swift.Bool, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in MediaHider.DKImagePickerController.saveImageDataToAlbumForiOS9(Foundation.Data, (MediaHider.DKAsset) -&gt; ()) -&gt; ()"
+                  moduleName = "MediaHider"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/q/Documents/HGC/201801/chris/Desktop/MediaHider/Frameworks/Manual/DKImage/DKImagePickerController/DKImagePickerController.swift"
+                  timestampString = "537683511.024864"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "496"
+                  endingLineNumber = "496"
+                  offsetFromSymbolStart = "24">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MediaHider/Frameworks/Manual/DKImage/DKImagePickerController/DKImagePickerController.swift"
+            timestampString = "537681272.893598"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "538"
+            endingLineNumber = "538"
+            landmarkName = "selectImage(atIndexPath:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -233,13 +376,13 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "MediaHider/ViewControllers/Login/MainVc/Login.swift"
-            timestampString = "537542549.426026"
+            filePath = "MediaHider/Frameworks/Manual/DKImage/DKImagePickerController/DKImagePickerController.swift"
+            timestampString = "537681311.003196"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "99"
-            endingLineNumber = "99"
-            landmarkName = "passwordInputComplete(_:input:)"
+            startingLineNumber = "295"
+            endingLineNumber = "295"
+            landmarkName = "viewWillAppear(_:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -249,13 +392,189 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "MediaHider/ViewControllers/Login/MainVc/Login.swift"
-            timestampString = "537542550.7860121"
+            filePath = "MediaHider/Frameworks/Manual/DKImage/DKImagePickerController/DKImagePickerController.swift"
+            timestampString = "537681315.195531"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "108"
-            endingLineNumber = "108"
-            landmarkName = "passwordInputComplete(_:input:)"
+            startingLineNumber = "438"
+            endingLineNumber = "438"
+            landmarkName = "done()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MediaHider/Frameworks/Manual/DKImage/DKImagePickerController/DKImagePickerController.swift"
+            timestampString = "537681319.163484"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "575"
+            endingLineNumber = "575"
+            landmarkName = "selectImage(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MediaHider/Frameworks/Manual/DKImage/DKImagePickerController/DKImagePickerController.swift"
+            timestampString = "537681322.04345"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "569"
+            endingLineNumber = "569"
+            landmarkName = "selectImage(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MediaHider/Frameworks/Manual/DKImage/DKImagePickerController/DKImagePickerController.swift"
+            timestampString = "537681412.586048"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "363"
+            endingLineNumber = "363"
+            landmarkName = "createCamera()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (__ObjC.UIImage, Swift.Optional&lt;Swift.Dictionary&lt;Swift.AnyHashable, Any&gt;&gt;) -&gt; () in MediaHider.DKImagePickerController.(createCamera in _D72F48B4EF023F4E60009869D0E04EB3)() -&gt; __ObjC.UIViewController"
+                  moduleName = "MediaHider"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/q/Documents/HGC/201801/chris/Desktop/MediaHider/Frameworks/Manual/DKImage/DKImagePickerController/DKImagePickerController.swift"
+                  timestampString = "537683511.051369"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "363"
+                  endingLineNumber = "363"
+                  offsetFromSymbolStart = "44">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (MediaHider.DKAsset) -&gt; () in closure #2 (__ObjC.UIImage, Swift.Optional&lt;Swift.Dictionary&lt;Swift.AnyHashable, Any&gt;&gt;) -&gt; () in MediaHider.DKImagePickerController.(createCamera in _D72F48B4EF023F4E60009869D0E04EB3)() -&gt; __ObjC.UIViewController"
+                  moduleName = "MediaHider"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/q/Documents/HGC/201801/chris/Desktop/MediaHider/Frameworks/Manual/DKImage/DKImagePickerController/DKImagePickerController.swift"
+                  timestampString = "537683511.053896"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "363"
+                  endingLineNumber = "363"
+                  offsetFromSymbolStart = "28">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MediaHider/Frameworks/Manual/DKImage/DKImagePickerController/DKImagePickerController.swift"
+            timestampString = "537681421.233477"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "385"
+            endingLineNumber = "385"
+            landmarkName = "createCamera()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MediaHider/ViewControllers/Home/MainVc/Home.swift"
+            timestampString = "537683510.730669"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "263"
+            endingLineNumber = "263"
+            landmarkName = "clickedOnAddButton()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MediaHider/ViewControllers/Desktop/desktopVC.swift"
+            timestampString = "537683510.730732"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "152"
+            endingLineNumber = "152"
+            landmarkName = "imagePickerController(_:didFinishPickingMediaWithInfo:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MediaHider/ViewControllers/Desktop/desktopVC.swift"
+            timestampString = "537683510.731027"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "112"
+            endingLineNumber = "112"
+            landmarkName = "imagePickerController(_:didFinishPickingMediaWithInfo:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MediaHider/ViewControllers/Desktop/desktopVC.swift"
+            timestampString = "537683510.731315"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "165"
+            endingLineNumber = "165"
+            landmarkName = "imagePickerController(_:didFinishPickingMediaWithInfo:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MediaHider/Frameworks/Manual/TabPagger/TabBaseViewController.swift"
+            timestampString = "537683510.731719"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "103"
+            endingLineNumber = "103"
+            landmarkName = "viewDidLoad()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
