@@ -75,7 +75,7 @@
 		CEA9B0631FC7415900B0B5AE /* PasswordUIValidation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA9B0461FC7415800B0B5AE /* PasswordUIValidation.swift */; };
 		CEA9B0641FC7415900B0B5AE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA9B0481FC7415800B0B5AE /* AppDelegate.swift */; };
 		CEA9B0671FC7415900B0B5AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEA9B04C1FC7415900B0B5AE /* LaunchScreen.storyboard */; };
-		CEA9B0681FC7415900B0B5AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEA9B04E1FC7415900B0B5AE /* Main.storyboard */; };
+		CEA9B0681FC7415900B0B5AE /* MainMedia.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEA9B04E1FC7415900B0B5AE /* MainMedia.storyboard */; };
 		CEA9B0691FC7415900B0B5AE /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA9B0541FC7415900B0B5AE /* Login.swift */; };
 		CEA9B06A1FC7415900B0B5AE /* baseVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA9B0591FC7415900B0B5AE /* baseVc.swift */; };
 		CEBF90E71FCC8FC000EA2E8D /* RNCryptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBF90E61FCC8FC000EA2E8D /* RNCryptor.swift */; };
@@ -204,7 +204,7 @@
 		CEA9B0481FC7415800B0B5AE /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CEA9B04A1FC7415800B0B5AE /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CEA9B04D1FC7415900B0B5AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		CEA9B04F1FC7415900B0B5AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CEA9B04F1FC7415900B0B5AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainMedia.storyboard; sourceTree = "<group>"; };
 		CEA9B0541FC7415900B0B5AE /* Login.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
 		CEA9B0591FC7415900B0B5AE /* baseVc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = baseVc.swift; sourceTree = "<group>"; };
 		CEA9B05A1FC7415900B0B5AE /* MediaHider-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MediaHider-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -613,7 +613,7 @@
 			isa = PBXGroup;
 			children = (
 				CEA9B04C1FC7415900B0B5AE /* LaunchScreen.storyboard */,
-				CEA9B04E1FC7415900B0B5AE /* Main.storyboard */,
+				CEA9B04E1FC7415900B0B5AE /* MainMedia.storyboard */,
 			);
 			path = StoryBoards;
 			sourceTree = "<group>";
@@ -875,7 +875,7 @@
 				CE0F43241FCB303800008098 /* DKImagePickerController.bundle in Resources */,
 				CEA9B05E1FC7415900B0B5AE /* Assets.xcassets in Resources */,
 				10F7ADA4200A47F200D37958 /* desktop.jpg in Resources */,
-				CEA9B0681FC7415900B0B5AE /* Main.storyboard in Resources */,
+				CEA9B0681FC7415900B0B5AE /* MainMedia.storyboard in Resources */,
 				CE251CE81FC9FA1600B80DC9 /* Assets.xcassets in Resources */,
 				CEA9B0671FC7415900B0B5AE /* LaunchScreen.storyboard in Resources */,
 				10F7ADA8200A4B7F00D37958 /* ios_photos.png in Resources */,
@@ -1014,12 +1014,12 @@
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
-		CEA9B04E1FC7415900B0B5AE /* Main.storyboard */ = {
+		CEA9B04E1FC7415900B0B5AE /* MainMedia.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				CEA9B04F1FC7415900B0B5AE /* Base */,
 			);
-			name = Main.storyboard;
+			name = MainMedia.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

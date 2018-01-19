@@ -42,7 +42,7 @@ enum vcIdentifiers : String {
 // MARK: StoaryBoards
 
 enum storyBoards : String {
-    case main = "Main"
+    case main = "MainMedia"
 }
 
 /**

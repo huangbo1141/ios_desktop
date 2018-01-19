@@ -2,10 +2,6 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>NSMicrophoneUsageDescription</key>
-	<string>Allow App to Access your Microphone.</string>
-	<key>NSCameraUsageDescription</key>
-	<string>Allow App to Access your Camera Device.</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleExecutable</key>
@@ -24,6 +20,10 @@
 	<string>1</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>NSCameraUsageDescription</key>
+	<string>Allow App to Access your Camera Device.</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Allow App to Access your Microphone.</string>
 	<key>NSPhotoLibraryUsageDescription</key>
 	<string>Allow MediaHider to Access your Photos</string>
 	<key>UIAppFonts</key>
@@ -34,7 +34,7 @@
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>
-	<string>Main</string>
+	<string>MainMedia</string>
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>
 		<string>armv7</string>

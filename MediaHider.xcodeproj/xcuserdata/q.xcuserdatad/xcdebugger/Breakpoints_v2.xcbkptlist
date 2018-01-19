@@ -127,8 +127,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "50"
             endingLineNumber = "50"
-            landmarkName = "clickCamera(_:)"
-            landmarkType = "7">
+            landmarkName = "unknown"
+            landmarkType = "0">
             <Locations>
                <Location
                   shouldBeEnabled = "No"
@@ -217,8 +217,8 @@
                   symbolName = "closure #1 (Swift.Array&lt;MediaHider.DKAsset&gt;) -&gt; () in MediaHider.home.clickedOnAddButton() -&gt; ()"
                   moduleName = "MediaHider"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/q/Documents/HGC/201801/chris/Desktop/MediaHider/ViewControllers/Home/MainVc/Home.swift"
-                  timestampString = "537683511.006016"
+                  urlString = "file:///Users/q/Documents/HGC/201801/chris/desktopApp/Desktop/MediaHider/ViewControllers/Home/MainVc/Home.swift"
+                  timestampString = "537938642.664678"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "259"
@@ -232,8 +232,8 @@
                   symbolName = "closure #1 () -&gt; () in closure #1 (Swift.Array&lt;MediaHider.DKAsset&gt;) -&gt; () in MediaHider.home.clickedOnAddButton() -&gt; ()"
                   moduleName = "MediaHider"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/q/Documents/HGC/201801/chris/Desktop/MediaHider/ViewControllers/Home/MainVc/Home.swift"
-                  timestampString = "537683511.008182"
+                  urlString = "file:///Users/q/Documents/HGC/201801/chris/desktopApp/Desktop/MediaHider/ViewControllers/Home/MainVc/Home.swift"
+                  timestampString = "537938642.6667579"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "261"
@@ -265,8 +265,8 @@
                   symbolName = "MediaHider.DKImagePickerController.saveImageDataToAlbumForiOS9(Foundation.Data, (MediaHider.DKAsset) -&gt; ()) -&gt; ()"
                   moduleName = "MediaHider"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/q/Documents/HGC/201801/chris/Desktop/MediaHider/Frameworks/Manual/DKImage/DKImagePickerController/DKImagePickerController.swift"
-                  timestampString = "537683511.01331"
+                  urlString = "file:///Users/q/Documents/HGC/201801/chris/desktopApp/Desktop/MediaHider/Frameworks/Manual/DKImage/DKImagePickerController/DKImagePickerController.swift"
+                  timestampString = "537938642.6717"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "498"
@@ -280,8 +280,8 @@
                   symbolName = "closure #1 () -&gt; () in MediaHider.DKImagePickerController.saveImageDataToAlbumForiOS9(Foundation.Data, (MediaHider.DKAsset) -&gt; ()) -&gt; ()"
                   moduleName = "MediaHider"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/q/Documents/HGC/201801/chris/Desktop/MediaHider/Frameworks/Manual/DKImage/DKImagePickerController/DKImagePickerController.swift"
-                  timestampString = "537683511.015497"
+                  urlString = "file:///Users/q/Documents/HGC/201801/chris/desktopApp/Desktop/MediaHider/Frameworks/Manual/DKImage/DKImagePickerController/DKImagePickerController.swift"
+                  timestampString = "537938642.674064"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "496"
@@ -313,8 +313,8 @@
                   symbolName = "closure #1 () -&gt; () in MediaHider.DKImagePickerController.saveImageDataToAlbumForiOS9(Foundation.Data, (MediaHider.DKAsset) -&gt; ()) -&gt; ()"
                   moduleName = "MediaHider"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/q/Documents/HGC/201801/chris/Desktop/MediaHider/Frameworks/Manual/DKImage/DKImagePickerController/DKImagePickerController.swift"
-                  timestampString = "537683511.020514"
+                  urlString = "file:///Users/q/Documents/HGC/201801/chris/desktopApp/Desktop/MediaHider/Frameworks/Manual/DKImage/DKImagePickerController/DKImagePickerController.swift"
+                  timestampString = "537938642.6797251"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "496"
@@ -328,8 +328,8 @@
                   symbolName = "closure #2 (Swift.Bool, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in MediaHider.DKImagePickerController.saveImageDataToAlbumForiOS9(Foundation.Data, (MediaHider.DKAsset) -&gt; ()) -&gt; ()"
                   moduleName = "MediaHider"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/q/Documents/HGC/201801/chris/Desktop/MediaHider/Frameworks/Manual/DKImage/DKImagePickerController/DKImagePickerController.swift"
-                  timestampString = "537683511.022694"
+                  urlString = "file:///Users/q/Documents/HGC/201801/chris/desktopApp/Desktop/MediaHider/Frameworks/Manual/DKImage/DKImagePickerController/DKImagePickerController.swift"
+                  timestampString = "537938642.681837"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "496"
@@ -343,8 +343,8 @@
                   symbolName = "closure #1 () -&gt; () in closure #2 (Swift.Bool, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in MediaHider.DKImagePickerController.saveImageDataToAlbumForiOS9(Foundation.Data, (MediaHider.DKAsset) -&gt; ()) -&gt; ()"
                   moduleName = "MediaHider"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/q/Documents/HGC/201801/chris/Desktop/MediaHider/Frameworks/Manual/DKImage/DKImagePickerController/DKImagePickerController.swift"
-                  timestampString = "537683511.024864"
+                  urlString = "file:///Users/q/Documents/HGC/201801/chris/desktopApp/Desktop/MediaHider/Frameworks/Manual/DKImage/DKImagePickerController/DKImagePickerController.swift"
+                  timestampString = "537938642.683926"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "496"
@@ -456,8 +456,8 @@
                   symbolName = "closure #2 (__ObjC.UIImage, Swift.Optional&lt;Swift.Dictionary&lt;Swift.AnyHashable, Any&gt;&gt;) -&gt; () in MediaHider.DKImagePickerController.(createCamera in _D72F48B4EF023F4E60009869D0E04EB3)() -&gt; __ObjC.UIViewController"
                   moduleName = "MediaHider"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/q/Documents/HGC/201801/chris/Desktop/MediaHider/Frameworks/Manual/DKImage/DKImagePickerController/DKImagePickerController.swift"
-                  timestampString = "537683511.051369"
+                  urlString = "file:///Users/q/Documents/HGC/201801/chris/desktopApp/Desktop/MediaHider/Frameworks/Manual/DKImage/DKImagePickerController/DKImagePickerController.swift"
+                  timestampString = "537938642.7100101"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "363"
@@ -471,8 +471,8 @@
                   symbolName = "closure #1 (MediaHider.DKAsset) -&gt; () in closure #2 (__ObjC.UIImage, Swift.Optional&lt;Swift.Dictionary&lt;Swift.AnyHashable, Any&gt;&gt;) -&gt; () in MediaHider.DKImagePickerController.(createCamera in _D72F48B4EF023F4E60009869D0E04EB3)() -&gt; __ObjC.UIViewController"
                   moduleName = "MediaHider"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/q/Documents/HGC/201801/chris/Desktop/MediaHider/Frameworks/Manual/DKImage/DKImagePickerController/DKImagePickerController.swift"
-                  timestampString = "537683511.053896"
+                  urlString = "file:///Users/q/Documents/HGC/201801/chris/desktopApp/Desktop/MediaHider/Frameworks/Manual/DKImage/DKImagePickerController/DKImagePickerController.swift"
+                  timestampString = "537938642.712101"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "363"
@@ -526,8 +526,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "152"
             endingLineNumber = "152"
-            landmarkName = "imagePickerController(_:didFinishPickingMediaWithInfo:)"
-            landmarkType = "7">
+            landmarkName = "unknown"
+            landmarkType = "0">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -542,8 +542,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "112"
             endingLineNumber = "112"
-            landmarkName = "imagePickerController(_:didFinishPickingMediaWithInfo:)"
-            landmarkType = "7">
+            landmarkName = "unknown"
+            landmarkType = "0">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -558,8 +558,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "165"
             endingLineNumber = "165"
-            landmarkName = "imagePickerController(_:didFinishPickingMediaWithInfo:)"
-            landmarkType = "7">
+            landmarkName = "unknown"
+            landmarkType = "0">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
